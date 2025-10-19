@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Island Dreams – Travel Agency</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Island Dreams</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#booking">Booking</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Find your paradise</h2>
+      <p>Escape to the warmth of Thailand’s finest beaches.</p>
+    </div>
+    <img
+      class="hero-bg"
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80"
+      alt="Beach background"
+    />
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <img
+        src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1600&q=80"
+        alt="Beach"
+      />
+      <div>
+        <h3>Welcome to Island Dreams</h3>
+        <p>
+          We create unforgettable journeys across the most beautiful places in Thailand.
+          From crystal-clear beaches to hidden jungle trails — every trip is crafted with
+          love and care.
+        </p>
+      </div>
+    </div>
+
+    <div class="about-content reverse">
+      <img
+        src="https://images.unsplash.com/photo-1540202404-8ecb9b96e2b2?auto=format&fit=crop&w=1600&q=80"
+        alt="Beach"
+      />
+      <div>
+        <h3>Unique Experiences</h3>
+        <p>
+          Relax in boutique resorts, explore coral reefs, and taste the authentic local
+          cuisine. Let us make your dream vacation a reality.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book your trip</h2>
+    <form action="booking.html" class="booking-form">
+      <label>Destination:</label>
+      <input type="text" placeholder="e.g. Phuket, Krabi" required />
+
+      <label>Check-in Date:</label>
+      <input type="date" required />
+
+      <label>Check-out Date:</label>
+      <input type="date" required />
+
+      <label>Guests:</label>
+      <input type="number" min="1" max="10" required />
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section class="reviews">
+    <h2>What Our Travelers Say</h2>
+    <div class="review-list">
+      <div class="review-card">
+        <img
+          src="https://images.unsplash.com/photo-1603415526960-f8f0a1e8e3c6?auto=format&fit=crop&w=400&q=80"
+          alt="Reviewer"
+        />
+        <p>
+          “The trip was beyond perfect! Beautiful beaches and top-notch organization.”
+        </p>
+        <span>— Emily W.</span>
+      </div>
+
+      <div class="review-card">
+        <img
+          src="https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=400&q=80"
+          alt="Reviewer"
+        />
+        <p>“Truly paradise on Earth. Booking was simple and the team is amazing.”</p>
+        <span>— Daniel S.</span>
+      </div>
+    </div>
+    <a href="reviews.html" class="more-reviews">See all reviews →</a>
+  </section>
+
+  <section class="map">
+    <h2>Find us</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12675.575274189277!2d98.333311!3d7.843048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30502540b1e6e32d%3A0x8028a42d92b43c30!2sCentral%20Phuket!5e0!3m2!1sen!2sth!4v1690000000000"
+      width="100%"
+      height="350"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+  </section>
+
+  <footer id="contact">
+    <p>
+      📩 Contact us:
+      <a href="mailto:nikitakwork12@gmail.com">nikitakwork12@gmail.com</a>
+    </p>
+    <p>© 2025 Island Dreams Travel Co. | Made by Nikitak</p>
+  </footer>
+</body>
+</html>
